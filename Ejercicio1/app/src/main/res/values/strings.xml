@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">App_RadioButton</string>
+    <string name="Numero1">primer Numero</string>
+    <string name="Numero2">Segundo Numero</string>
+    <string name="Txt_Sumar">Sumar</string>
+    <string name="Txt_Restar">Restar</string>
+    <string name="button">Resolver</string>
+    <string name="Txt_Resultado">Resultado</string>
+</resources>

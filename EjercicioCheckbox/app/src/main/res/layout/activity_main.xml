@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/id_numero1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:ems="10"
+        android:hint="Primer número"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <EditText
+        android:id="@+id/ID_numero2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Segundo número"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/id_numero1" />
+
+    <CheckBox
+        android:id="@+id/ID_check1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Suma"
+        app:layout_constraintTop_toBottomOf="@+id/ID_numero2"
+        tools:layout_editor_absoluteX="32dp" />
+
+    <CheckBox
+        android:id="@+id/ID_check2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:text="Resta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ID_check1" />
+
+    <Button
+        android:id="@+id/ID_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="36dp"
+        android:text="RESOLVER"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ID_check2" />
+
+    <TextView
+        android:id="@+id/ID_resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="412dp"
+        tools:text="Resultado" />
+</android.support.constraint.ConstraintLayout>

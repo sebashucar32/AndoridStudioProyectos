@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejercicio3</string>
+    <string name="Txt_Numero1">Primer Numero</string>
+    <string name="Txt_Numero2">Segundo Numero</string>
+    <string name="Radiobut1">Sumar</string>
+    <string name="RadioBut2">Restar</string>
+    <string name="RadioBut3">Multiplicar</string>
+    <string name="RadioBut4">Dividir</string>
+    <string name="button">Resolver</string>
+    <string name="Txt_Resultado">Resultado</string>
+</resources>
+
+
+
+
+
