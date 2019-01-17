@@ -1,0 +1,5 @@
+ejercicioCheckbox: este ejercicio tiene 2 checkbox para resolver suma y resta de 2 números los checkbox son para utilizar varias operaciones si las desea osea que se pueden seleccionar todas las opciones de checkbox posibles
+
+RadioGrup: ejercicio parecido a los checkbox solo que en los radiogrup solo se puede escoger una opción el ejercicio es que con 2 números se pueden hacer operaciones de suma, resta, multiplicación y división.
+
+ProjecrFutbol: Proyecto de grado de sebastian huertas cardona y del Eduardo.

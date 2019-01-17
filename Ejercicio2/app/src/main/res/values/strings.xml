@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">MyApp2</string>
-    <string name="txt_view_string">Promedio del Alumno</string>
-    <string name="txt_Nota1_string">Compiladores</string>
-    <string name="txt_Nota2_string">Distribuidos</string>
-    <string name="txt_Nota3_string">Laboratorio</string>
-    <string name="txt_Nota4_string">Proyecto de Grado</string>
-    <string name="Boton">Promedio</string>
-</resources>
